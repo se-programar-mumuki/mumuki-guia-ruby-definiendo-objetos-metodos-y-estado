@@ -1,0 +1,1 @@
+Al parámetro de `volar_hacia!` tenés que darle un nombre. Podrías llamarlo `ciudad`, pero eso colisionaría con el nombre del atributo `ciudad`. Así que te proponemos otros nombres: `una_ciudad` o, mejor, `destino`;

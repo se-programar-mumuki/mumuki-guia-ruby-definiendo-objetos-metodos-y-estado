@@ -1,0 +1,12 @@
+---
+rules:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+    these_expectations_failed:
+    - distancia_a Not:Assigns
+  then: "`distancia_a` debe retornar la distancia entre la ciudad de `Pepita` y su
+    destino, no debe guardar ese valor en una variable"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+    error_contains: expecting end
+  then: Falta un `end` en algún lado. Fijate qué objeto o método quedó sin cerrar
